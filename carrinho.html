@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Carrinho de Compras</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Carrinho de Compras</h1>
+        <table id="cart">
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Imagem</th>
+                    <th>Quantidade</th>
+                    <th>Preço Unitário</th>
+                    <th>Preço Total</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Itens do carrinho serão inseridos aqui -->
+            </tbody>
+        </table>
+        <div class="total">
+            <h2> Total: <span id="totalValue">R$ 0,00</span></h2>
+        </div>
+        <button id="checkoutButton">Finalizar Compra</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
